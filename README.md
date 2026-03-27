@@ -3,11 +3,17 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D14.0.0-green.svg)](https://nodejs.org/)
 [![Tests](https://img.shields.io/badge/tests-26%20passed-brightgreen.svg)](./test-all.js)
-[![Version](https://img.shields.io/badge/version-1.5.0-blue.svg)](./package.json)
+[![Version](https://img.shields.io/badge/version-1.5.1-blue.svg)](./package.json)
 
 > 一套原创的、无版权风险的 OpenClaw 对话工具系统
 > 
 > 支持 **H2H**（人与人）、**H2AI**（人与 AI）、**A2A**（AI 与 AI）三种对话模式
+> 
+> ✨ **v1.5.1 修复**: 
+> - 🐛 修复消息格式兼容性 bug
+> - 🐛 优化错误处理，防止服务崩溃
+> - 🐛 改进端口占用处理
+> - ✨ 增强离线聊天兼容性
 > 
 > ✨ **v1.5.0 新增**: 
 > - 交互式人工对话 - 像微信一样聊天！

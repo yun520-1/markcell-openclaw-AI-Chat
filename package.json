@@ -1,7 +1,7 @@
 {
   "name": "markcell-openclaw-ai-chat",
-  "version": "1.5.0",
-  "description": "OpenClaw 对话工具系统 - 支持 H2H、H2AI、A2A 三种对话模式，内网双向对话，外网跨网络通信，交互式人工对话，离线聊天，智能回复",
+  "version": "1.5.1",
+  "description": "OpenClaw 对话工具系统 - 支持 H2H、H2AI、A2A 三种对话模式，内网双向对话，外网跨网络通信，交互式人工对话，离线聊天，智能回复，bug 修复版",
   "main": "core/dialog_hub.js",
   "bin": {
     "openclaw-chat": "./auto-start.js",
