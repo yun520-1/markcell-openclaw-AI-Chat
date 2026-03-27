@@ -1,0 +1,79 @@
+{
+  "name": "markcell-openclaw-ai-chat",
+  "displayName": "markcell-openclaw-AI Chat",
+  "version": "1.0.0",
+  "description": "OpenClaw 对话工具系统 - 支持 H2H、H2AI、A2A 三种对话模式的原创对话管理系统",
+  "author": "markcell",
+  "license": "MIT",
+  "homepage": "https://github.com/markcell/markcell-openclaw-AI-Chat",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markcell/markcell-openclaw-AI-Chat.git"
+  },
+  "keywords": [
+    "openclaw",
+    "dialog",
+    "chat",
+    "ai",
+    "agent",
+    "conversation",
+    "skill",
+    "h2h",
+    "h2ai",
+    "a2a",
+    "对话",
+    "技能"
+  ],
+  "categories": [
+    "对话管理",
+    "AI 协作",
+    "技能系统"
+  ],
+  "main": "core/dialog_hub.js",
+  "files": [
+    "core/",
+    "modules/",
+    "skills/",
+    "examples/",
+    "README.md",
+    "QUICKSTART.md",
+    "ARCHITECTURE.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test-all.js",
+    "example": "node examples/example-1-basic-chat.js",
+    "start": "node examples/example-1-basic-chat.js"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "openclaw": ">=1.0.0"
+  },
+  "features": [
+    {
+      "name": "DialogHub",
+      "description": "对话中心引擎，统一管理三种对话模式"
+    },
+    {
+      "name": "SessionManager",
+      "description": "会话生命周期管理、状态持久化"
+    },
+    {
+      "name": "SkillRegistry",
+      "description": "技能注册、发现、加载系统"
+    },
+    {
+      "name": "A2AModule",
+      "description": "AI 与 AI 协作协议、任务分配"
+    }
+  ],
+  "original": true,
+  "copyrightSafe": true,
+  "commercialUse": true,
+  "tags": [
+    "原创",
+    "无版权风险",
+    "MIT",
+    "可商用"
+  ]
+}

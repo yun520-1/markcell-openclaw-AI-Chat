@@ -1,0 +1,43 @@
+# Git 忽略文件
+
+# 依赖
+node_modules/
+package-lock.json
+
+# 会话数据
+sessions/
+*.session.json
+
+# 日志
+logs/
+*.log
+npm-debug.log*
+
+# 测试
+test-sessions/
+coverage/
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# 环境配置
+.env
+.env.local
+
+# 构建产物
+dist/
+build/

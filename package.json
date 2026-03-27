@@ -1,0 +1,46 @@
+{
+  "name": "markcell-openclaw-ai-chat",
+  "version": "1.0.0",
+  "description": "OpenClaw 对话工具系统 - 支持 H2H、H2AI、A2A 三种对话模式的原创对话管理系统",
+  "main": "core/dialog_hub.js",
+  "scripts": {
+    "test": "node test-all.js",
+    "example": "node examples/example-1-basic-chat.js",
+    "start": "node examples/example-1-basic-chat.js"
+  },
+  "keywords": [
+    "openclaw",
+    "dialog",
+    "chat",
+    "ai",
+    "agent",
+    "conversation",
+    "skill",
+    "h2h",
+    "h2ai",
+    "a2a"
+  ],
+  "author": "markcell",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markcell/markcell-openclaw-AI-Chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/markcell/markcell-openclaw-AI-Chat/issues"
+  },
+  "homepage": "https://github.com/markcell/markcell-openclaw-AI-Chat#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "core/",
+    "modules/",
+    "skills/",
+    "examples/",
+    "README.md",
+    "QUICKSTART.md",
+    "ARCHITECTURE.md",
+    "LICENSE"
+  ]
+}
