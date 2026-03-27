@@ -21,7 +21,7 @@ class WANChatService {
     this.codeSystem = null;
     this.publicIP = null;
     this.lanIP = null;
-    this.port = 8080;
+    this.port = 1234;
     this.conversations = new Map();
     this.knownPeers = new Map();  // 已知的外网对等节点
   }
