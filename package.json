@@ -1,13 +1,14 @@
 {
   "name": "markcell-openclaw-ai-chat",
   "version": "1.5.0",
-  "description": "OpenClaw 对话工具系统 - 支持 H2H、H2AI、A2A 三种对话模式，内网双向对话，外网跨网络通信，交互式人工对话，智能回复",
+  "description": "OpenClaw 对话工具系统 - 支持 H2H、H2AI、A2A 三种对话模式，内网双向对话，外网跨网络通信，交互式人工对话，离线聊天，智能回复",
   "main": "core/dialog_hub.js",
   "bin": {
     "openclaw-chat": "./auto-start.js",
     "openclaw-lan": "./lan-chat.js",
     "openclaw-wan": "./wan-chat.js",
     "openclaw-interactive": "./interactive-chat.js",
+    "openclaw-offline": "./offline-chat.js",
     "openclaw-install": "./install-and-start.sh"
   },
   "scripts": {
@@ -16,6 +17,7 @@
     "lan": "node lan-chat.js",
     "wan": "node wan-chat.js",
     "interactive": "node interactive-chat.js",
+    "offline": "node offline-chat.js",
     "example": "node examples/example-1-basic-chat.js"
   },
   "keywords": [
@@ -34,11 +36,13 @@
     "lan",
     "wan",
     "interactive",
+    "offline",
     "auto-start",
     "智能回复",
     "内网对话",
     "外网对话",
     "人工对话",
+    "离线聊天",
     "跨网络",
     "对话",
     "技能",
@@ -68,6 +72,7 @@
     "lan-chat.js",
     "wan-chat.js",
     "interactive-chat.js",
+    "offline-chat.js",
     "lan-start.js",
     "install-and-start.sh",
     "test-all-features.sh",
