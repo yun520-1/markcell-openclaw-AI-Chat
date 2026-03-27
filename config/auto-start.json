@@ -1,0 +1,11 @@
+{
+  "autoStart": true,
+  "port": 8080,
+  "host": "0.0.0.0",
+  "connectionCode": "OCLAW-CECB-2C97-44F3",
+  "agentId": "agent_mn8bdkws",
+  "createdAt": "2026-03-27T03:00:42.650Z",
+  "publicIP": "localhost",
+  "lastStarted": "2026-03-27T03:00:42.774Z",
+  "address": "http://localhost:8080"
+}

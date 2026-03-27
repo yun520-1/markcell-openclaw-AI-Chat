@@ -3,21 +3,23 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D14.0.0-green.svg)](https://nodejs.org/)
 [![Tests](https://img.shields.io/badge/tests-26%20passed-brightgreen.svg)](./test-all.js)
-[![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](./package.json)
+[![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)](./package.json)
 
 > 一套原创的、无版权风险的 OpenClaw 对话工具系统
 > 
 > 支持 **H2H**（人与人）、**H2AI**（人与 AI）、**A2A**（AI 与 AI）三种对话模式
 > 
-> ✨ **v1.1.0 新增**: 连接编码系统 - 通过唯一编码直接对话！
+> ✨ **v1.2.0 新增**: 自动启动服务 - 安装后自动生成编码并启动网络服务器！
 
 ## 🎯 核心特性
 
 - ✅ **三种对话模式**: H2H（人与人）、H2AI（人与 AI）、A2A（AI 与 AI）
 - ✅ **100% 原创代码**: 无第三方依赖，无版权风险
 - ✅ **连接编码系统**: 通过唯一编码 (OCLAW-XXXX-XXXX-XXXX) 直接对话
+- ✅ **真实网络通信**: HTTP/WebSocket 支持，跨网络通信
+- ✅ **自动启动服务**: 安装后自动生成编码并启动服务器
 - ✅ **模块化设计**: 每个功能独立，可单独使用或组合
-- ✅ **完善的文档**: 8 个文档文件，覆盖所有场景
+- ✅ **完善的文档**: 12 个文档文件，覆盖所有场景
 - ✅ **测试充分**: 26 项测试，100% 通过率
 - ✅ **MIT 许可**: 可安全用于商业项目
 
