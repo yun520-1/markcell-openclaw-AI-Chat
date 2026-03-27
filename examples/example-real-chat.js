@@ -21,12 +21,12 @@ async function runChat() {
   console.log('真实网络聊天客户端');
   console.log('========================================\n');
   
-  // 创建网络服务器
+  // 创建网络服务器（使用 8082 端口，避免冲突）
   const server = new NetworkServer({
-    port: 8080,
+    port: 8082,
     host: '0.0.0.0',
     agentId: 'chat-client',
-    connectionCode: 'OCLAW-CLIENT-001'
+    connectionCode: 'OCLAW-CLIENT-002'
   });
   
   // 获取我的连接编码
